@@ -1,0 +1,55 @@
+.container{
+    display:flex;
+    padding: .1em;
+    background-color: tomato;
+    height: 1.2em;
+    width: 100%;
+}
+
+.logo{
+    background-color: transparent;
+    border: .05em white solid;
+    padding: .1em;
+    color: rgb(253, 238, 238);
+    font-size: 1em;
+    width: 1em;
+    text-align: center;
+    margin-right: .5em;
+
+    span{
+        margin-top: -.8em;
+    }
+}
+.header-left{
+display: flex;
+}
+.heading{
+    margin-top: -.1em;
+    color: black;
+    font-size: .9em;
+    width: 7em;
+}
+
+.header-navebar{
+    display: flex;
+    font-size: .9em;
+    margin-top: -.1em;
+    div{
+        padding-right: .5em;
+        padding-left: .5em;
+        border-right: .1em black solid;
+        height: 1em;
+    }
+    div:last-child{
+        border-right: 0em;
+    }
+}
+
+.header-login-btn{
+    position: relative;
+    float: right;
+    font-size: .9em;
+    margin-top: -1.7em;
+    margin-right: .7em;
+    z-index: 1000;
+}

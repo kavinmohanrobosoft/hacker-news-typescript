@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+}
+
+code {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+  @media only screen and (min-width: 750px){
+  .template{margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1em;
+  }
+}
+

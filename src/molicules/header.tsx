@@ -1,12 +1,12 @@
 import React from 'react';
-import HeaderLeft from '../organisms/headerleft';
-import HeaderRight from '../organisms/headerright';
+import HeaderLeft from './headerleft';
+import Link from "../atoms/link"
 
 
 const Header = () => {
     return <div className="header">
         <HeaderLeft />
-        <HeaderRight />
+        <Link className="header-login-btn" url="/login" text="login" />
     </div>
 }
 

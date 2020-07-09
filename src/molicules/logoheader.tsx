@@ -1,7 +1,7 @@
 import React from "react";
 import Heading from "../atoms/heading";
 import Spantext from "../atoms/opentext";
-import HeaderNavbar from '../molicules/headernavbar';
+import HeaderNavbar from './headernavbar';
 import { HeaderNavData } from '../utils/datas'
 
 

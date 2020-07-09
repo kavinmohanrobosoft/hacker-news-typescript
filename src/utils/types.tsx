@@ -10,7 +10,19 @@ export type SpantextProps = {
     className?:string,
     text:string
 }
-type PostsResult = {
+export type PostsResult = {
+    by?:string ,
+    descendants?:number,
+    id?:number ,
+    kids?:Array<number>,
+    score?: number ,
+    time?: number ,
+    title?: string ,
+    type?: string ,
+    url?: string ,
+    text?:string
+  }
+  export type AskResult = {
     by?:string ,
     descendants?:number,
     id?:number ,
@@ -21,20 +33,10 @@ type PostsResult = {
     type?: string ,
     url?: string ,
   }
-export type OlListProps = {
-    className?: string,
-    start?: number,
-    data: Array<PostsResult>
-}
 
 export type IndividualPostsProps = {
     posts:Array<PostsResult>
   }
-
-export type ListProps = {
-    className?: string,
-    data: HTMLElement
-}
 
 export type HeadingTextProps = {
     className?:string, 
@@ -44,7 +46,7 @@ export type HeadingTextProps = {
 export type TextareaProps = {
     className?:string, 
     value?:string,
-    onChange?: () =>void
+    onchange?:() =>void
 }
 
 export type InputTextProps = {
@@ -94,4 +96,23 @@ export type FooterNavbarData = {
 export type LabelProps = {
     text: string,
     className?: string
+}
+type PostsublinePropsData = {
+    descendants?: number,
+    by?: string,
+}
+export type PostsublineProps = {
+    className?: string
+    data: Array<PostsublinePropsData>
+}
+
+export type OlListProps = {
+    className?: string,
+    start?: number,
+    data: any
+}
+
+export type ListProps = {
+    className?: string,
+    data: any
 }

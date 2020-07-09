@@ -1,5 +1,5 @@
 import React from "react";
-import FooterNavbar from "../molicules/footernavbar";
+import FooterNavbar from "./footernavbar";
 import Label from "../atoms/label";
 import InputText from "../atoms/inputtext";
 import { FooterNavbardata } from '../utils/datas'

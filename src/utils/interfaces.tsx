@@ -8,4 +8,5 @@ export interface PostsResult {
     title?: string ,
     type?: string ,
     url?: string ,
+    posts?:any
   }

@@ -1,8 +1,8 @@
 import React from 'react';
 import { LabelProps } from '../utils/types'
 
-const Link = (props: LabelProps) => {
-return <label className={props.className} >{props.text}</label>
+const Label = (props: LabelProps) => {
+return <label className={props.className} >{props.text ? props.text : "Label"}</label>
 }
 
-export default Link;
+export default Label;
